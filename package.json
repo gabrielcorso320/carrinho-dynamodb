@@ -1,0 +1,15 @@
+{
+  "name":"carrinho-dynamodb-nosql",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Demonstração acadêmica: carrinho de compras em DynamoDB Local",
+  "scripts":{
+    "setup":"node src/setup.js",
+    "seed":"node src/seed.js",
+    "demo":"node src/demo.js",
+    "consultas":"node src/consultas.js",
+    "reset":"node src/reset.js"
+  },
+  "dependencies":{"@aws-sdk/client-dynamodb":"^3.800.0","@aws-sdk/lib-dynamodb":"^3.800.0"},
+  "engines":{"node":">=20"}
+}
