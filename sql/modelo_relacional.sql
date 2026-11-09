@@ -1,4 +1,4 @@
--- Modelo relacional equivalente (sintaxe SQL genérica, próxima a SQLite).
+-- Modelo relacional equivalente (sintaxe SQL)
 CREATE TABLE carrinhos (
   id VARCHAR(20) PRIMARY KEY,
   cliente VARCHAR(100) NOT NULL,
